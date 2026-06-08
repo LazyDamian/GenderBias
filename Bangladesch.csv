@@ -1,0 +1,609 @@
+person,personLabel,country,countryLabel,genderLabel,wikipediaArticle
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Humayun_Azad
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B9%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%81%E0%A6%A8_%E0%A6%86%E0%A6%9C%E0%A6%BE%E0%A6%A6
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://arz.wikipedia.org/wiki/%D9%87%D9%88%D9%85%D8%A7%D9%8A%D9%88%D9%86_%D8%A7%D8%B2%D8%A7%D8%AF
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://as.wikipedia.org/wiki/%E0%A6%B9%E0%A7%81%E0%A6%AE%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%81%E0%A6%A8_%E0%A6%86%E0%A6%9C%E0%A6%BE%E0%A6%A6
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://de.wikipedia.org/wiki/Humayun_Azad
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://eo.wikipedia.org/wiki/Humayun_Azad
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://es.wikipedia.org/wiki/Humayun_Azad
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://fa.wikipedia.org/wiki/%D9%87%D9%85%D8%A7%DB%8C%D9%88%D9%86_%D8%A2%D8%B2%D8%A7%D8%AF
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://fr.wikipedia.org/wiki/Humayun_Azad
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://hi.wikipedia.org/wiki/%E0%A4%B9%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%AF%E0%A5%81%E0%A4%A8_%E0%A4%86%E0%A4%9C%E0%A4%BE%E0%A4%A6
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ne.wikipedia.org/wiki/%E0%A4%B9%E0%A5%81%E0%A4%AE%E0%A4%BE%E0%A4%AF%E0%A5%81%E0%A4%A8_%E0%A4%86%E0%A4%9C%E0%A4%BE%E0%A4%A6
+http://www.wikidata.org/entity/Q3143161,Humayun Azad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://te.wikipedia.org/wiki/%E0%B0%B9%E0%B1%81%E0%B0%AE%E0%B0%BE%E0%B0%AF%E0%B1%81%E0%B0%A8%E0%B1%8D_%E0%B0%86%E0%B0%9C%E0%B0%BE%E0%B0%A6%E0%B1%8D
+http://www.wikidata.org/entity/Q4377359,Kazi M Badruddoza,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Kazi_M._Badruddoza
+http://www.wikidata.org/entity/Q4377359,Kazi M Badruddoza,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%BE%E0%A6%9C%E0%A7%80_%E0%A6%8F%E0%A6%AE_%E0%A6%AC%E0%A6%A6%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%8B%E0%A6%9C%E0%A6%BE
+http://www.wikidata.org/entity/Q4377359,Kazi M Badruddoza,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AE%BE%E0%AE%9A%E0%AE%BF_%E0%AE%8E%E0%AE%AE%E0%AF%8D_%E0%AE%AA%E0%AE%A4%E0%AF%81%E0%AE%B0%E0%AF%81%E0%AE%A4%E0%AF%8D%E0%AE%A4%E0%AF%8B%E0%AE%9A%E0%AE%BE
+http://www.wikidata.org/entity/Q4648274,A. Q. M. Bazlul Karim,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/A._Q._M._Bazlul_Karim
+http://www.wikidata.org/entity/Q4648274,A. Q. M. Bazlul Karim,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F._%E0%A6%95%E0%A6%BF%E0%A6%89._%E0%A6%8F%E0%A6%AE._%E0%A6%AC%E0%A6%9C%E0%A6%B2%E0%A7%81%E0%A6%B2_%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%AE
+http://www.wikidata.org/entity/Q4655288,A A Mamun,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/A._A._Mamun
+http://www.wikidata.org/entity/Q4655288,A A Mamun,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%AC%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B9_%E0%A6%86%E0%A6%B2_%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A7%81%E0%A6%A8_(%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%E0%A7%80)
+http://www.wikidata.org/entity/Q4846334,Azam Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Azam_Ali_(scientist)
+http://www.wikidata.org/entity/Q4846334,Azam Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%9C%E0%A6%AE_%E0%A6%86%E0%A6%B2%E0%A7%80
+http://www.wikidata.org/entity/Q4934689,Shirin Akiner,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Shirin_Akiner
+http://www.wikidata.org/entity/Q4934689,Shirin Akiner,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://arz.wikipedia.org/wiki/%D8%B4%D9%8A%D8%B1%D9%8A%D9%86_%D8%A7%D9%83%D9%8A%D9%86%D8%B1
+http://www.wikidata.org/entity/Q4934689,Shirin Akiner,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://be-tarask.wikipedia.org/wiki/%D0%A8%D1%8B%D1%80%D1%8B%D0%BD_%D0%90%D0%BA%D1%96%D0%BD%D1%8D%D1%80
+http://www.wikidata.org/entity/Q4934689,Shirin Akiner,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://be.wikipedia.org/wiki/%D0%A8%D1%8B%D1%80%D1%8B%D0%BD_%D0%90%D0%BA%D1%96%D0%BD%D1%8D%D1%80
+http://www.wikidata.org/entity/Q4934689,Shirin Akiner,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://eu.wikipedia.org/wiki/Shirin_Akiner
+http://www.wikidata.org/entity/Q4934689,Shirin Akiner,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://sv.wikipedia.org/wiki/Shirin_Akiner
+http://www.wikidata.org/entity/Q6713160,M. Shamsher Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/M._Shamsher_Ali
+http://www.wikidata.org/entity/Q6713160,M. Shamsher Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F%E0%A6%AE_%E0%A6%B6%E0%A6%AE%E0%A6%B6%E0%A7%87%E0%A6%B0_%E0%A6%86%E0%A6%B2%E0%A7%80
+http://www.wikidata.org/entity/Q7329995,Richard William Timm,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Richard_William_Timm
+http://www.wikidata.org/entity/Q7329995,Richard William Timm,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1_%E0%A6%89%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE_%E0%A6%9F%E0%A6%BF%E0%A6%AE
+http://www.wikidata.org/entity/Q7329995,Richard William Timm,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://as.wikipedia.org/wiki/%E0%A7%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A7%B0%E0%A7%8D%E0%A6%A1_%E0%A6%89%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE_%E0%A6%9F%E0%A6%BF%E0%A6%AE
+http://www.wikidata.org/entity/Q7329995,Richard William Timm,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://no.wikipedia.org/wiki/Richard_William_Timm
+http://www.wikidata.org/entity/Q7329995,Richard William Timm,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://simple.wikipedia.org/wiki/Richard_William_Timm
+http://www.wikidata.org/entity/Q7329995,Richard William Timm,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ur.wikipedia.org/wiki/%D8%B1%DA%86%D8%B1%DA%88_%D9%88%D9%84%DB%8C%D9%85_%D9%B9%D9%85
+http://www.wikidata.org/entity/Q7329995,Richard William Timm,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bpy.wikipedia.org/wiki/%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1_%E0%A6%89%E0%A6%87%E0%A6%B2%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%AE_%E0%A6%9F%E0%A6%BF%E0%A6%AE
+http://www.wikidata.org/entity/Q7461220,Shah Abdul Hannan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ar.wikipedia.org/wiki/%D8%B4%D8%A7%D9%87_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%AD%D9%86%D8%A7%D9%86
+http://www.wikidata.org/entity/Q7461220,Shah Abdul Hannan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Shah_Abdul_Hannan
+http://www.wikidata.org/entity/Q7461220,Shah Abdul Hannan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%BE%E0%A6%B9_%E0%A6%86%E0%A6%AC%E0%A6%A6%E0%A7%81%E0%A6%B2_%E0%A6%B9%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q7461220,Shah Abdul Hannan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://arz.wikipedia.org/wiki/%D8%B4%D8%A7%D9%87_%D8%A7%D8%A8%D8%AF%D9%88%D9%84_%D9%87%D8%A7%D9%86%D8%A7%D9%86
+http://www.wikidata.org/entity/Q7461296,Shah M. Faruque,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Shah_M._Faruque
+http://www.wikidata.org/entity/Q7461296,Shah M. Faruque,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%BE%E0%A6%B9_%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6_%E0%A6%AB%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%95
+http://www.wikidata.org/entity/Q7461296,Shah M. Faruque,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://fa.wikipedia.org/wiki/%D8%B4%D8%A7%D9%87_%D9%85._%D9%81%D8%A7%D8%B1%D9%88%DA%A9%D9%87
+http://www.wikidata.org/entity/Q7809031,Tipu Aziz,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Tipu_Aziz
+http://www.wikidata.org/entity/Q7809031,Tipu Aziz,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%9F%E0%A6%BF%E0%A6%AA%E0%A7%81_%E0%A6%86%E0%A6%9C%E0%A6%BF%E0%A6%9C
+http://www.wikidata.org/entity/Q11105050,Shuvo Roy,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Shuvo_Roy
+http://www.wikidata.org/entity/Q11105050,Shuvo Roy,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A7%81%E0%A6%AD_%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC
+http://www.wikidata.org/entity/Q11105050,Shuvo Roy,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://arz.wikipedia.org/wiki/%D8%B4%D9%88%D9%81%D9%88_%D8%B1%D9%88%D9%89
+http://www.wikidata.org/entity/Q13058762,Flora Zaibun Majid,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Flora_Zaibun_Majid
+http://www.wikidata.org/entity/Q13058762,Flora Zaibun Majid,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://bn.wikipedia.org/wiki/%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%B0%E0%A6%BE_%E0%A6%9C%E0%A6%BE%E0%A6%87%E0%A6%AC%E0%A7%81%E0%A6%A8_%E0%A6%AE%E0%A6%BE%E0%A6%9C%E0%A6%BF%E0%A6%A6
+http://www.wikidata.org/entity/Q13058762,Flora Zaibun Majid,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://de.wikipedia.org/wiki/Flora_Zaibun_Majid
+http://www.wikidata.org/entity/Q13059891,Q13059891,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%AB%E0%A6%BF%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8_%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A6%A6
+http://www.wikidata.org/entity/Q16346139,Moyukh Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Moyukh_Chowdhury
+http://www.wikidata.org/entity/Q16346139,Moyukh Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%AF%E0%A6%BC%E0%A7%81%E0%A6%96_%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80_(%E0%A6%95%E0%A6%AC%E0%A6%BF)
+http://www.wikidata.org/entity/Q20603921,Z. N. Tahmida Begum,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Z._N._Tahmida_Begum
+http://www.wikidata.org/entity/Q20603921,Z. N. Tahmida Begum,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%A8_%E0%A6%A8%E0%A7%87%E0%A6%B8%E0%A6%BE_%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A6%AE%E0%A6%BF%E0%A6%A6%E0%A6%BE_%E0%A6%AC%E0%A7%87%E0%A6%97%E0%A6%AE
+http://www.wikidata.org/entity/Q23068953,M. Belal Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A7%87%E0%A6%B2%E0%A6%BE%E0%A6%B2_%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8_(%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%E0%A7%80)
+http://www.wikidata.org/entity/Q23418892,Syed Akhter Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Syed_Akhter_Hossain
+http://www.wikidata.org/entity/Q23418892,Syed Akhter Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%88%E0%A6%AF%E0%A6%BC%E0%A6%A6_%E0%A6%86%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B0_%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8
+http://www.wikidata.org/entity/Q23771258,Karunamoy Goswami,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Karunamaya_Goswami
+http://www.wikidata.org/entity/Q23771258,Karunamoy Goswami,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%BE%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%97%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%AE%E0%A7%80
+http://www.wikidata.org/entity/Q24566043,Ahmad Shamsul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Ahmad_Shamsul_Islam
+http://www.wikidata.org/entity/Q24566043,Ahmad Shamsul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A6%A6_%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A6%B8%E0%A7%81%E0%A6%B2_%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE
+http://www.wikidata.org/entity/Q25586194,M. Zahid Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/M._Zahid_Hasan
+http://www.wikidata.org/entity/Q25586194,M. Zahid Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F%E0%A6%AE._%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A6_%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q25586194,M. Zahid Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://azb.wikipedia.org/wiki/%D8%B2%D8%A7%D9%87%D8%AF_%D8%AD%D8%B3%D9%86
+http://www.wikidata.org/entity/Q25587890,Monzur Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%A8%E0%A6%9C%E0%A7%81%E0%A6%B0_%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8
+http://www.wikidata.org/entity/Q25587890,Monzur Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%A8%E0%A6%9C%E0%A7%81%E0%A6%B0_%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8
+http://www.wikidata.org/entity/Q27881369,Mihir Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Mihir_Chowdhury
+http://www.wikidata.org/entity/Q27881369,Mihir Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%BF%E0%A6%B9%E0%A6%BF%E0%A6%B0_%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80
+http://www.wikidata.org/entity/Q27973754,Abdul Mannan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Abdul_Mannan_(educator)
+http://www.wikidata.org/entity/Q27973754,Abdul Mannan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%AC%E0%A6%A6%E0%A7%81%E0%A6%B2_%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A8%E0%A6%BE%E0%A6%A8_(%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%A6)
+http://www.wikidata.org/entity/Q29353472,Taher Saif,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/M._Taher_Saif
+http://www.wikidata.org/entity/Q29353472,Taher Saif,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F%E0%A6%AE_%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%B0_%E0%A6%8F_%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AB
+http://www.wikidata.org/entity/Q33133717,Munshi Siddique Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Munshi_Siddique_Ahmad
+http://www.wikidata.org/entity/Q33133717,Munshi Siddique Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%81%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A7%80_%E0%A6%B8%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%80%E0%A6%95_%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A6%A6
+http://www.wikidata.org/entity/Q44104090,Haseena Khan,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Haseena_Khan
+http://www.wikidata.org/entity/Q44104090,Haseena Khan,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://bn.wikipedia.org/wiki/%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE_%E0%A6%96%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q47455580,Fyaz Hussain Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Fyaz_Hussain_Khan
+http://www.wikidata.org/entity/Q47455580,Fyaz Hussain Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AB%E0%A6%BE%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%9C_%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8_%E0%A6%96%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q47483306,Tanzeem Choudhury,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Tanzeem_Choudhury
+http://www.wikidata.org/entity/Q47483306,Tanzeem Choudhury,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://bn.wikipedia.org/wiki/%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%9C%E0%A6%BF%E0%A6%AE_%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80
+http://www.wikidata.org/entity/Q47483306,Tanzeem Choudhury,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://as.wikipedia.org/wiki/%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%9C%E0%A6%BF%E0%A6%AE_%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%A6_%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A7%B0%E0%A7%80
+http://www.wikidata.org/entity/Q53870563,Mahmooda Sultana,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Mahmooda_Sultana
+http://www.wikidata.org/entity/Q55984862,Kamrul Hasan Bhuiyan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Kamrul_Hasan_Bhuiyan
+http://www.wikidata.org/entity/Q55984862,Kamrul Hasan Bhuiyan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A6%B0%E0%A7%81%E0%A6%B2_%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%A8_%E0%A6%AD%E0%A7%82%E0%A6%81%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE
+http://www.wikidata.org/entity/Q55984862,Kamrul Hasan Bhuiyan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://arz.wikipedia.org/wiki/%D9%83%D8%A7%D9%85%D8%B1%D9%88%D9%84_%D9%87%D8%A7%D8%B3%D8%A7%D9%86_%D8%A8%D9%87%D9%88%D9%8A%D8%A7%D9%86
+http://www.wikidata.org/entity/Q21821242,Iqbal Hosen,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q28470893,Md. Yeamin Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q38543946,Mohammad Anwar Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q39062686,Rubhana Raqib,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q42402590,Ahmad H. Kabir,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q42844882,Mohammad Jakir Hosen,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q43190596,Dewan Md. Emdadul Hoque,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q43203216,Syeda Umme Habiba Wahid,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q47502278,Fazle Rabbi Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q52571086,Sultana Monira Hussain,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q54024628,Rita Yusuf,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q54560529,Rebeca Sultana,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q54801752,Ruchira Naved,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q55446248,Mohammad Rafiqul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q56333785,Sayera Banu,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q56483849,Sharif Ahmed Mukul,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q56543063,Shakhawat H. Firoz,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57011138,Muhammad Mahmudul Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57167601,Md Zahurul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57205779,Md. Tanvir Kabir,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57321610,Md Ashraful Alam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57412144,E. M. TANVIR,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57414849,Naznin Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q57415715,Muhammad Mizanur Rahaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57419149,Mohammad Mostafa Zaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57421492,Naomi Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q57422942,Md Alamgir Kabir,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57460629,Md. Abdullah Yusuf,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57491897,Md Kawsar Alam,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57919990,Md. Siddiqur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57920070,K. M. Mijanur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57920271,Md. Fuad Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57920301,Md. Khairul Alam,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57920371,Ahmed Sharif,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57920395,MD. JAHID BIN KASHEM,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57920448,Md. Abdur Razzaque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57920474,Md. Rafiqul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57920506,M. S. I. Sajib,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57920643,Mohammad Anwar Siddique,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57920666,A. N. M. Fakhruddin,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57920795,Mejbah Bhuiyan,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57920882,M M Jalal Uddin,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57920899,S.M. Yasir Arafat,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57920915,Md. Rajibul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57921000,Monny Akter Boby,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q57921042,Moniruzzaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57921067,Kamrun Nahar Koly,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q57921084,Md. Mamun Molla,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57921097,Md. Shahdat Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57934992,Md. Sakib Hossen,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57935013,Mohammad Jahangir Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57935026,Md. Ibrahim Khalil,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57935545,Rajesh Palit,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57935798,Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57940458,Syed Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57941925,Md. Habibullah-Al-Mamun,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57944777,Mohammad Mainul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57945156,Mohammad Ali,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57945454,Md Hasanuzzaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57948084,Shaharima Parvin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q57948495,Md Mostafizur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q57953457,Arnob Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57954904,Muhammad Manjurul Karim,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q57955103,Amzad Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q58150353,A. K. Enamul Haque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q58213411,Mohammed A. Mamun,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q58237400,Ankan Ghosh Dastider,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q58326603,Ahmed Imtiaj,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q58477582,Nishat Sarker,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q59189036,Moinul Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q59264415,Nazmul Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q59291157,Tapan Kumar Saha,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q59543074,Hasan Ahmad,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q59560366,Md Kawsar Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q59846164,Afifa Imtiaz,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q59858355,Silvia Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q60024629,Nova Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q60050631,Tonima Tasnim Ananna,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q60668614,Shams Arifeen,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q60963165,Arif Hasan Khan Robin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q61075262,Md. Mahmudul Alam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q61097589,Md. Aminul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q61144391,Eva Rahman Kabir,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q61162844,Partho Das,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q62091227,Rashidul Haque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q62587141,Nafees Mansoor,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q63251430,Ahaduzzaman Mohammad Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q63651000,Musrat Zahan Surovy,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q64683127,Zannatun Noor,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q64865566,Md. Mostafizur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q65096291,Monir Uddin Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q65686578,Sheikh Manjura Hoque,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q65718501,Shamsun Nahar Khan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q65863849,Abdullah Shams Bin Tariq,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q66793723,Tabassum Mumtaz,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q67963551,Mahmudul Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q75715670,M Atiqur Rahman Patoary,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q77713226,Kazi Nadim Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q82502684,Mohammad Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q82922638,M Abdullah-Al-Wadud,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q83391729,Hossain M S Sazzad,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q83621201,Md Mainul Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q83832019,Rawshan Begum,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q84287773,Farhana Pinu,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q84986758,M Nuruzzaman Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q85045844,M Tarik Arafat,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q85296718,Md Saiful Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q85919992,Shamima Nasrin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q86205639,Ahnaf Rashik Hassan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q86616951,Partha Pratim Ghosh,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q86652105,Rukhsana Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q86713643,A K M Aminul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87000258,Md Akhtaruzzaman Adnan,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q87011609,Md Kamrujjaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87034830,Mohammad Mahmudul Hassan,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q87099197,Md Bashir Uddin,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q87129964,Quazi T H Shubhra,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q87211469,Abdul Khaleque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87364956,Rashed Mustafa,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87409188,Md Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87439924,Aliya Naheed,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q87490559,Sabina Yeasmin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q87616130,Md Rashedul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87629534,Md Mostafizur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q87718673,Md Mahbub Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q87724359,Mahdy Rahman Chowdhury Mahdy,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87731171,Tasnuva Wahed,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q87760087,Zhahirul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87765008,Mohammad Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q87770374,Paroma Arefin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q87774346,Samia Subrina,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q87813120,Abul Kalam Azad,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q88008117,Md Mahfujur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q88016257,M H M Borhannuddin Bhuyan,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q88033638,Shamim M Ahmmed,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q88154631,Md Harun-Or Rashid,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q88213400,Rumana Omar,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q88287641,Reefat Inum,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q88320582,Tasnuva Sarwar Tunna,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q88456167,Mohammad Mainul Ahasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q88461522,Shamim Ahmad,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q88461524,Md Khademul Islam Molla,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q88643919,Abdullah Al-Mamun,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q88644271,Israt Jahan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q88708972,Zahabul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q88749564,Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q88750463,Rokshana Parvin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q89016174,M Tasdik Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q89039019,Nazma Shaheen,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q89072306,Mizanur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q89375460,Sudip Paul,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q89407097,Mir Mohammad Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q89421366,Farjana Islam,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q89432335,Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q89451793,Zenat Zebin Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q89604816,Stella Babalola,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q89618886,Md Yousuf Ali,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q89639651,Shaheen Akhter,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q89639648,Helal Uddin Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q89639658,Muzharul Mannan,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q89700725,Md. Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q89747727,Humayan Kabir Rana,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q89815893,Md Abu Bin Hasan Susan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q89846812,Md Saddam Hussain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90041108,Taufika Islam Anee,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90093295,Fahmida Gulshan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90151240,Mohammad Shah Alam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90183237,M Nazmul Hoque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90225356,Al Hakim,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q90246134,Md Hasanuzzaman Talukder,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90280274,Alifa Bintha Haque,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90305799,Fahmida Tofail,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90309299,Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90320088,Jasmin Khan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90344018,M A A Mamun,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90407462,Fariha Binte Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90467084,A. H. M. Nurun Nabi,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90482909,Bachera Aktar,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90613320,Md Siddiqur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90623786,Mizanur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90720886,Shafin Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90727510,Yusha Araf,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90727513,MD. Hasanur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90730313,M K Basher,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q90743520,Nadia Ali Rimi,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90776634,Lutfe Ara,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q90776638,Md. Ehsanul Haque Tamal,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90776639,Noor Kutubul Alam Siddiquee,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90850905,Shah Mohammad Fahim,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90897779,Abdus Salam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90922460,Md Giash Uddin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q90925129,Md Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91039917,Sahadat Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91269731,Sumaiya Mamun,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q91361996,Md Ashraful Alam,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q91390469,Moinul Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91411777,Latifa Nishat,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q91455873,Md Wahadoszamen,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91469434,Md Aminul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91477751,Chowdhury Faiz Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91496075,Mohammad Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91589036,Ashraful Islam Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91733009,S K Alamgir Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91760952,Taufiqur Rahman Bhuiyan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91760957,Fahima Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q91805780,Md Jamal Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q91810862,Shaikh Mirja Nurunnabi,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q91916496,Mohammad Ali,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q91966193,Israt Jahan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q92011758,Mohammad Enamul Hoque Kayesh,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92013962,Sajal K Saha,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q92043260,Israt Jahan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q92043264,Md Monir Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92043269,Zeenath Fardous,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q92044264,Kazi Faizul Azim,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92065242,Mahmudul Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q92163067,Md Matiur Rahaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92212880,Sheikh Mohammad Mahmudul Hasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92222506,Jannatul Ferdous,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q92255826,Nusrat Subhan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q92476598,Najneen Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q92549175,S M Bakhtiar Ul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92612523,Joyanta Kumar Saha,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92626930,Zakir Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92700708,Md Abu Zafar Al Munsur,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92722594,Mohammad A Hasnat,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92874234,M Mizanur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92915823,Md Atiqul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q92939843,Afifa Anjum,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q92995277,Md. Anwar Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q93080632,Md Anwar Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q93125960,Ipsita Hamid,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q93271460,Hassan Al-Razi,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q93385676,Kazi Tanvir Ahmmed,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q95275859,Sanjoy Kumar Paul,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q95280556,N M Mahmudul Alam Bhuiya,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q95603153,Khondoker Nazmoon Nabi,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q95604754,Md. Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q95606260,Mohammad Ali,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q95607964,Nusrat Jahan Sathi,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q95641990,Lolo Wal Marzan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q95968459,Md Mahmudul Alam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q95970235,Faria Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q95990869,Md Ekramul Karim,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q96115980,A K M Mohsin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q96116483,Sabrina Rahman Archie,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q96118512,Md Taohidul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q96196672,Marjan Maria,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q96196779,S M Abdullah,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q96204893,Md Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q96207279,Khondaker A Mamun,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q96246951,Mohammad Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q96248170,Talita Zahin Choudhury,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q96248172,Hamida Nooreen Mahmood,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q96249086,Md Kamal Uddin,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q96809832,Masuda Begum Sampa,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q96950148,Jinath Sultana Jime,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q97639173,Md Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q97688128,Taha Husain,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q97872469,Tahsin Nairuz,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q98567191,Md Sorwer Alam Parvez,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q98902292,Dwaipayan Sikdar,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q99210722,Kutub Uddin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q99358781,Md Jamal Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q99408231,Atiya Tahira Tasnim,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q99411764,Fatema Tuj Johora,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q99707880,Md Mijanur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q100304410,Sabiha Afrin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q100386586,Md Shariful Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q100503298,Nahitun Naher,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q100691508,Israt Jahan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q100746920,Tamanna Islam,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q101141228,Md M Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q101157967,Md Lutfor Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q101222984,Md Samsuzzaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q101241816,Shuchi Karim,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q101454002,Syed Mithun Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q101461752,Mohammad Motiur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q101564442,Sheikh Mahbubur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q101564441,Wahhida Shumi,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q101576389,Nafisa Noor,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q102217889,Md Shahadat Hossen,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q102370596,Roma Rani Sarker,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q102378158,Tasnuva Faruk,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q102386403,Md Hakimul Haque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q102449803,Mahmuda Naznin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q104474681,Mohammad Rafiqul Mowla,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q104489380,Abid Hasan Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q104496489,Narayan Chandra Saha,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q104496494,Mohammad Enayet Hussain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q104515270,Md Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q104788031,S M Didar-Ul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q104796142,Md Mahmudul Hasan Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q104997761,Saifuddin Chaudhuri,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q108127471,Iftekhar Ahmed Fagun,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q108570076,Md Zunaid Baten,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q108977304,Fahimuzzaman Nobel,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q108978414,Shahriar Caesar Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q110260397,Sara Nowreen,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q110477891,Murshed Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q112794066,Maria Sultana Keya,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q113547169,Atiq Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q114314817,Md. Munsur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q114454421,Ashrafun Nessa,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q114525600,Hamida Khanum,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q114665421,Sarah Enamul Haque,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q116678790,Abdulla-Al-Asif,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q116678790,Abdulla-Al-Asif,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q116774085,Tahmina Shirin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q116774116,Tahirah Yasmin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q116774135,Md Taufiqul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q116774133,Iqbal Ansary Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q116815022,Kazy Noor-e-Alam Siddiquee,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q117840901,Q117840901,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q121881823,Helen Mashiyat Preoty,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q121881833,Syed Yusuf Saadat,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q122216690,M. Anwar Hossen,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q122259232,Munawar Sultana,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q122260595,Nadira Naznin Rakhi,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q123984264,Kamrun Nahar Keya,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q123984354,Mst Kamrun Nahar,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q123984723,Kamrun Nahar,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q126120267,Jahnnabi Das,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q129515731,Shaikh Mohammad Bokhtiar,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q129658647,Sheikh Darber Alam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q131056637,Rownak Jahan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q131287633,Mohammad Mamun Or Rashid,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q131557611,Masuma Khanam,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q131844591,Abdur Razzak bin Yousuf,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q132858673,Trina Saha,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132858686,Shabnur Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132858867,Asrafun Naher,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132860037,Indrani Das,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132860083,Kohinur Begum,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132863084,Marzia Bilkiss,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132863190,Raysa Khan Tareque,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132863241,Gulshan Ara Latifa,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132889691,Syeda Zerin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q132892729,Bhagya Rani Banik,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q133373714,Q133373714,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q133379027,Q133379027,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q133581903,Q133581903,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q134930926,Md. Mujibur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q135092463,Hasan Md. Shahriare,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q135284556,Asef Jamil,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q135550934,Gawsia W. Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q135654625,Sowgato Kumar Bhowmik,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q135715282,Md. Nazmul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,,
+http://www.wikidata.org/entity/Q136032593,Farah Naz Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q136032609,Farjana Mahbuba,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q136032619,Sanjana Zaman,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q136099212,Abdul Hasib Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q136117592,Palash Kumar Bhowmik,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q136304486,Shahla Shahreen,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q136304749,Shahina Akter,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q136436788,Shaikh Afnan Birahim,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q136535372,Marjana Akter,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q136721544,Tanim Jabid Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q136734590,Nazmul Huda Badhon,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q136790254,Jannatul Ferdous,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q137096806,Q137096806,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q137189460,Mihir Lal Saha,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q137435577,Sadya Mizan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q137435641,Jannatul Nyema,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q137474211,Khairun Nahar,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q137719863,Md Golam Mubasshir Rafi,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q137911195,Rudra Pratap Deb Nath,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q138005276,Sayda Umma Hamida,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138579381,Md. Enamul Haque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q138633879,Ishrat Rafique Eshita,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138633969,Anika Tabassum,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138634106,Rifa Punnota,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138634173,Dipa Mahbuba Yasmin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138634536,Farah Mehreen Ahmad,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138634589,Umama Zillur,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138634596,Lamia Mohsin,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138634678,Ava Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138634769,Shafinaz Sameen,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138637298,Ayasha Siddiqua,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138637302,Salma Begum,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138637304,Tanjima Chandni,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138637309,Zannat Ara Dilshad Shangi,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138637350,Sarah Binte Haque,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138639343,Shama Emy Haque,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138642929,Maria Mehedy,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138643967,Sayma Akhter,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138646583,Farzana Zaman,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138648607,Meem Arafat Manab,http://www.wikidata.org/entity/Q902,Bangladesh,trans woman,
+http://www.wikidata.org/entity/Q138678379,Sadequa Sultana,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138678858,Mahmuda Islam,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138679101,Melissa Erin Khan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138679991,Sirina Akhatara,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138680204,Maimuna Hug,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138680225,Mohsina Khatun,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138683162,Mofida Begum,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138683248,Sifat Musfique,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q138685342,Kiranne Guddoy,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138686066,Shiba Shankar Giri,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q138688730,Zobaida Nasreen,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138719223,Nahid Akhter,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q56260331,Rafiq Uddina Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B0%E0%A6%AB%E0%A6%BF%E0%A6%95_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8_%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A7%87%E0%A6%A6_(%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8%E0%A7%80)
+http://www.wikidata.org/entity/Q56907915,Mubarak Ahmad Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Mubarak_Ahmad_Khan
+http://www.wikidata.org/entity/Q56907915,Mubarak Ahmad Khan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%8B%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%95_%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A6%A6_%E0%A6%96%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q57624750,Nitai Chandra Sutradhar,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%87_%E0%A6%9A%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0_%E0%A6%B8%E0%A7%82%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%B0
+http://www.wikidata.org/entity/Q57919994,Malabika Sarker,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Malabika_Sarker
+http://www.wikidata.org/entity/Q57920597,Md. Atiar Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%A4%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0_%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q57934162,Senjuti Saha,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Senjuti_Saha
+http://www.wikidata.org/entity/Q57934162,Senjuti Saha,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%87%E0%A6%81%E0%A6%9C%E0%A7%81%E0%A6%A4%E0%A6%BF_%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE
+http://www.wikidata.org/entity/Q57934162,Senjuti Saha,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://as.wikipedia.org/wiki/%E0%A6%B8%E0%A7%87%E0%A6%81%E0%A6%9C%E0%A7%81%E0%A6%A4%E0%A6%BF_%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE
+http://www.wikidata.org/entity/Q57934162,Senjuti Saha,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://de.wikipedia.org/wiki/Senjuti_Saha
+http://www.wikidata.org/entity/Q57934162,Senjuti Saha,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://es.wikipedia.org/wiki/Senjuti_Saha
+http://www.wikidata.org/entity/Q57942228,Yearul Kabir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%87%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%81%E0%A6%B2_%E0%A6%95%E0%A6%AC%E0%A7%80%E0%A6%B0
+http://www.wikidata.org/entity/Q131919904,Q131919904,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%81%E0%A6%B8%E0%A6%BE_%E0%A6%86%E0%A6%B2_%E0%A6%B9%E0%A6%BE%E0%A6%AB%E0%A6%BF%E0%A6%9C
+http://www.wikidata.org/entity/Q132143039,Amena Mohsin,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Amena_Mohsin
+http://www.wikidata.org/entity/Q133863789,Mohammad Sorowar Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6_%E0%A6%B8%E0%A6%B0%E0%A7%8B%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0_%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8
+http://www.wikidata.org/entity/Q133863789,Mohammad Sorowar Hossain,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://simple.wikipedia.org/wiki/Mohammad_Sorowar_Hossain
+http://www.wikidata.org/entity/Q134088148,Abul Hasnat Md. Shamim,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%AC%E0%A7%81%E0%A6%B2_%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A6%BE%E0%A6%A4_%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE._%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%AE
+http://www.wikidata.org/entity/Q134897399,Shuvashish Sinha,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A7%81%E0%A6%AD%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A6%B8_%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%B9%E0%A6%BE
+http://www.wikidata.org/entity/Q136723631,Shawon Akand,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Shawon_Akand
+http://www.wikidata.org/entity/Q136723631,Shawon Akand,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%BE%E0%A6%93%E0%A6%A8_%E0%A6%86%E0%A6%95%E0%A6%A8%E0%A7%8D%E0%A6%A6
+http://www.wikidata.org/entity/Q136723631,Shawon Akand,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://simple.wikipedia.org/wiki/Shawon_Akand
+http://www.wikidata.org/entity/Q137927128,Q137927128,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%81%E0%A6%B9%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6_%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%A8_%E0%A6%AE%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE_(%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%95)
+http://www.wikidata.org/entity/Q138989654,Abdur Rahim,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Abdur_Rahim_(scientist)
+http://www.wikidata.org/entity/Q138989654,Abdur Rahim,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F%E0%A6%AE_%E0%A6%8F_%E0%A6%B0%E0%A6%B9%E0%A6%BF%E0%A6%AE
+http://www.wikidata.org/entity/Q139579522,Mohammad Abdul Baki,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Mohammad_Abdul_Baki
+http://www.wikidata.org/entity/Q139822693,Mohammed Taj Uddin,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6_%E0%A6%A4%E0%A6%BE%E0%A6%9C_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8
+http://www.wikidata.org/entity/Q139885433,Mamun Or Rashid,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A7%81%E0%A6%A8_%E0%A6%85%E0%A6%B0_%E0%A6%B0%E0%A6%B6%E0%A6%BF%E0%A6%A6
+http://www.wikidata.org/entity/Q89488799,Asaddor Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Asaddor_Ali
+http://www.wikidata.org/entity/Q89488799,Asaddor Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%B0_%E0%A6%86%E0%A6%B2%E0%A7%80
+http://www.wikidata.org/entity/Q89488799,Asaddor Ali,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://syl.wikipedia.org/wiki/%EA%A0%80%EA%A0%8D%EA%A0%96%EA%A0%86%EA%A0%96%EA%A0%9E_%EA%A0%80%EA%A0%9F%EA%A0%A4
+http://www.wikidata.org/entity/Q90269338,Naila Zaman Khan,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Naila_Zaman_Khan
+http://www.wikidata.org/entity/Q90269338,Naila Zaman Khan,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://ml.wikipedia.org/wiki/%E0%B4%A8%E0%B5%88%E0%B4%B2_%E0%B4%B8%E0%B4%AE%E0%B4%BE%E0%B5%BB_%E0%B4%96%E0%B4%BE%E0%B5%BB
+http://www.wikidata.org/entity/Q90754487,Saleh Hasan Naqib,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Saleh_Hasan_Naqib
+http://www.wikidata.org/entity/Q90754487,Saleh Hasan Naqib,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B9_%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BE%E0%A6%A8_%E0%A6%A8%E0%A6%95%E0%A7%80%E0%A6%AC
+http://www.wikidata.org/entity/Q96202175,Syed Safiullah,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Syed_Safiullah
+http://www.wikidata.org/entity/Q96202175,Syed Safiullah,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%88%E0%A6%AF%E0%A6%BC%E0%A6%A6_%E0%A6%B8%E0%A6%AB%E0%A6%BF%E0%A6%89%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B9
+http://www.wikidata.org/entity/Q96202175,Syed Safiullah,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://fa.wikipedia.org/wiki/%D8%B3%DB%8C%D8%AF_%D8%B5%D9%81%DB%8C%E2%80%8C%D8%A7%D9%84%D9%87
+http://www.wikidata.org/entity/Q58338656,Farhana Sultana,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Farhana_Sultana
+http://www.wikidata.org/entity/Q58338656,Farhana Sultana,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://de.wikipedia.org/wiki/Farhana_Sultana
+http://www.wikidata.org/entity/Q61080185,Swarochish Sarker,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Swarochish_Sarkar
+http://www.wikidata.org/entity/Q61080185,Swarochish Sarker,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%9A%E0%A6%BF%E0%A6%B7_%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0
+http://www.wikidata.org/entity/Q83890556,Nadira Majumder,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Nadira_Majumder
+http://www.wikidata.org/entity/Q83890556,Nadira Majumder,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://bn.wikipedia.org/wiki/%E0%A6%A8%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A6%BE_%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%B0
+http://www.wikidata.org/entity/Q84429299,Nurun Nabi,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Nuran_Nabi
+http://www.wikidata.org/entity/Q84429299,Nurun Nabi,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%A8%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%A8_%E0%A6%A8%E0%A6%AC%E0%A7%80
+http://www.wikidata.org/entity/Q84760304,Raton Siddiki,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B0%E0%A6%A4%E0%A6%A8_%E0%A6%B8%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%95%E0%A7%80
+http://www.wikidata.org/entity/Q84972715,Saymon Zakaria,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Saymon_Zakaria
+http://www.wikidata.org/entity/Q84972715,Saymon Zakaria,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AE%E0%A6%A8_%E0%A6%9C%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE
+http://www.wikidata.org/entity/Q86746032,Hossain Uddin Shekhar,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Hossain_Uddin_Shekhar
+http://www.wikidata.org/entity/Q86746032,Hossain Uddin Shekhar,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8_%E0%A6%B6%E0%A7%87%E0%A6%96%E0%A6%B0
+http://www.wikidata.org/entity/Q87353263,Meerjady Sabrina Flora,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Meerjady_Sabrina_Flora
+http://www.wikidata.org/entity/Q87353263,Meerjady Sabrina Flora,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%80%E0%A6%B0%E0%A6%9C%E0%A6%BE%E0%A6%A6%E0%A7%80_%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%A8%E0%A6%BE_%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%B0%E0%A6%BE
+http://www.wikidata.org/entity/Q89128300,A. S. M. Lutful Ahasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/ASM_Lutful_Ahasan
+http://www.wikidata.org/entity/Q89128300,A. S. M. Lutful Ahasan,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F_%E0%A6%8F%E0%A6%B8_%E0%A6%8F%E0%A6%AE_%E0%A6%B2%E0%A7%81%E0%A7%8E%E0%A6%AB%E0%A7%81%E0%A6%B2_%E0%A6%86%E0%A6%B9%E0%A6%B8%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q97522506,Emdadul Haque Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Emdadul_Haque_Chowdhury
+http://www.wikidata.org/entity/Q97522506,Emdadul Haque Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F%E0%A6%AE%E0%A6%A6%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%B2_%E0%A6%B9%E0%A6%95_%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80
+http://www.wikidata.org/entity/Q97522506,Emdadul Haque Chowdhury,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ff.wikipedia.org/wiki/Emdadul_Haque_Chowdhury
+http://www.wikidata.org/entity/Q105598501,Qazi Azizul Mowla,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Qazi_Azizul_Mowla
+http://www.wikidata.org/entity/Q105598501,Qazi Azizul Mowla,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%BE%E0%A6%9C%E0%A7%80_%E0%A6%86%E0%A6%9C%E0%A6%BF%E0%A6%9C%E0%A7%81%E0%A6%B2_%E0%A6%AE%E0%A6%BE%E0%A6%93%E0%A6%B2%E0%A6%BE
+http://www.wikidata.org/entity/Q105693107,Najmun Nahar,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://fr.wikipedia.org/wiki/Najmun_Nahar
+http://www.wikidata.org/entity/Q107392931,Md. Abul Kashem,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Md._Abul_Kashem
+http://www.wikidata.org/entity/Q107392931,Md. Abul Kashem,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F%E0%A6%AE_%E0%A6%8F_%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%87%E0%A6%AE_(%E0%A6%85%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%95)
+http://www.wikidata.org/entity/Q108120939,Khandaker Abdullah Jahangir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ar.wikipedia.org/wiki/%D8%AE%D9%88%D9%86%D8%AF%D9%83%D8%A7%D8%B1_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87_%D8%AC%D9%87%D8%A7%D9%86%D8%BA%D9%8A%D8%B1
+http://www.wikidata.org/entity/Q108120939,Khandaker Abdullah Jahangir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Khandaker_Abdullah_Jahangir
+http://www.wikidata.org/entity/Q108120939,Khandaker Abdullah Jahangir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%96%E0%A7%8B%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A6%95%E0%A6%BE%E0%A6%B0_%E0%A6%86%E0%A6%AC%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B9_%E0%A6%9C%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%B0
+http://www.wikidata.org/entity/Q108120939,Khandaker Abdullah Jahangir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://hi.wikipedia.org/wiki/%E0%A4%96%E0%A4%82%E0%A4%A6%E0%A4%95%E0%A4%BE%E0%A4%B0_%E0%A4%85%E0%A4%AC%E0%A5%8D%E0%A4%A6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE_%E0%A4%9C%E0%A4%B9%E0%A4%BE%E0%A4%82%E0%A4%97%E0%A5%80%E0%A4%B0
+http://www.wikidata.org/entity/Q108120939,Khandaker Abdullah Jahangir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://id.wikipedia.org/wiki/Khandaker_Abdullah_Jahangir
+http://www.wikidata.org/entity/Q108120939,Khandaker Abdullah Jahangir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ms.wikipedia.org/wiki/Khandaker_Abdullah_Jahangir
+http://www.wikidata.org/entity/Q108120939,Khandaker Abdullah Jahangir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://simple.wikipedia.org/wiki/Khandaker_Abdullah_Jahangir
+http://www.wikidata.org/entity/Q108120939,Khandaker Abdullah Jahangir,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ur.wikipedia.org/wiki/%D8%AE%D9%86%D8%AF%DA%A9%D8%A7%D8%B1_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%DB%81_%D8%AC%DB%81%D8%A7%D9%86%DA%AF%DB%8C%D8%B1
+http://www.wikidata.org/entity/Q108405747,Zahurul Karim,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Zahurul_Karim
+http://www.wikidata.org/entity/Q108405747,Zahurul Karim,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A6%B9%E0%A7%81%E0%A6%B0%E0%A7%81%E0%A6%B2_%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%AE
+http://www.wikidata.org/entity/Q108440576,Abdus Salam Chatgami,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_%D8%A7%D9%84%D8%AC%D8%A7%D8%AA%D8%AC%D8%A7%D9%85%D9%8A
+http://www.wikidata.org/entity/Q108440576,Abdus Salam Chatgami,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Abdus_Salam_Chatgami
+http://www.wikidata.org/entity/Q108440576,Abdus Salam Chatgami,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%86%E0%A6%AC%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%B8_%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE_%E0%A6%9A%E0%A6%BE%E0%A6%9F%E0%A6%97%E0%A6%BE%E0%A6%AE%E0%A7%80
+http://www.wikidata.org/entity/Q108440576,Abdus Salam Chatgami,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ur.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_%DA%86%D9%B9%DA%AF%D8%A7%D9%85%DB%8C
+http://www.wikidata.org/entity/Q108440576,Abdus Salam Chatgami,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://uz.wikipedia.org/wiki/Abdusalom_Chatgamiy
+http://www.wikidata.org/entity/Q115941664,Mashud Ahmed,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A6%89%E0%A6%A6_%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A6%A6
+http://www.wikidata.org/entity/Q115988115,Mohammad Ali Arafat,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Mohammad_Ali_Arafat
+http://www.wikidata.org/entity/Q115988115,Mohammad Ali Arafat,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6_%E0%A6%86%E0%A6%B2%E0%A7%80_%E0%A6%86%E0%A6%B0%E0%A6%BE%E0%A6%AB%E0%A6%BE%E0%A6%A4
+http://www.wikidata.org/entity/Q115988115,Mohammad Ali Arafat,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://fr.wikipedia.org/wiki/Mohammad_Ali_Arafat
+http://www.wikidata.org/entity/Q115988115,Mohammad Ali Arafat,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A5%8B%E0%A4%B9%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%A6_%E0%A4%8F._%E0%A4%85%E0%A4%B0%E0%A4%BE%E0%A4%AB%E0%A4%BE%E0%A4%A4
+http://www.wikidata.org/entity/Q115988115,Mohammad Ali Arafat,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://ur.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%84%DB%8C_%D8%B9%D8%B1%D9%81%D8%A7%D8%AA
+http://www.wikidata.org/entity/Q118109289,Shah Alimuzzaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A7%8D_%E0%A6%86%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A7%81%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q119933052,Abdul Mazid,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Abdul_Mazid_(researcher)
+http://www.wikidata.org/entity/Q119933052,Abdul Mazid,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%8B._%E0%A6%86%E0%A6%AC%E0%A6%A6%E0%A7%81%E0%A6%B2_%E0%A6%AE%E0%A6%9C%E0%A6%BF%E0%A6%A6
+http://www.wikidata.org/entity/Q121881836,Mustafizur Rahman,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Mustafizur_Rahman_(economist)
+http://www.wikidata.org/entity/Q123038722,A. S. M. Maksud Kamal,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/ASM_Maksud_Kamal
+http://www.wikidata.org/entity/Q123038722,A. S. M. Maksud Kamal,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%8F_%E0%A6%8F%E0%A6%B8_%E0%A6%8F%E0%A6%AE_%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A6%B8%E0%A7%81%E0%A6%A6_%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B2
+http://www.wikidata.org/entity/Q130217827,Bidhan Chandra Das,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BF%E0%A6%A7%E0%A6%BE%E0%A6%A8_%E0%A6%9A%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0_%E0%A6%A6%E0%A6%BE%E0%A6%B8
+http://www.wikidata.org/entity/Q130221770,Tuhin Wadud,http://www.wikidata.org/entity/Q902,Bangladesh,,https://bn.wikipedia.org/wiki/%E0%A6%A4%E0%A7%81%E0%A6%B9%E0%A6%BF%E0%A6%A8_%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%A6
+http://www.wikidata.org/entity/Q130240496,Simeen Mahmud,http://www.wikidata.org/entity/Q902,Bangladesh,female,https://en.wikipedia.org/wiki/Simeen_Mahmud
+http://www.wikidata.org/entity/Q130613312,Mohammad Raknuzzaman,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6_%E0%A6%B0%E0%A7%8B%E0%A6%95%E0%A6%A8%E0%A7%81%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%A8
+http://www.wikidata.org/entity/Q130641592,Kamaluddin Ahmad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Kamaluddin_Ahmad
+http://www.wikidata.org/entity/Q130641592,Kamaluddin Ahmad,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B2_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8_%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A7%87%E0%A6%A6
+http://www.wikidata.org/entity/Q130706587,Zulhash Uddin,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%B9%E0%A6%BE%E0%A6%B8_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%A8
+http://www.wikidata.org/entity/Q131337442,Zakir Hossain Raju,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://en.wikipedia.org/wiki/Zakir_Hossain_Raju
+http://www.wikidata.org/entity/Q131688695,Dhanonjoy Saha,http://www.wikidata.org/entity/Q902,Bangladesh,male,https://bn.wikipedia.org/wiki/%E0%A6%A7%E0%A6%A8%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A6%AF%E0%A6%BC_%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE
+http://www.wikidata.org/entity/Q138719248,Farhana Nargis,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138738097,Md. Enamul Haque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q138750391,Enamul Haque,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q138850849,Md. Alamgir Kabir,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q138852195,Ashraful Kabir,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q138868364,Trosporsha Tasnim Khan,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138915452,Mst. Sharmin Sultana Shimu,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138916928,Sharmin Sultana Poly,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q138919518,Abdul Awal,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139075924,Md. Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139285726,Md. Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139308573,Md Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139323638,Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139328630,Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139374963,Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139381609,Md. Ruhul Amin,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139741604,Mst. Irin Naher,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q139742160,Umme Aminun Naher,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q139963397,Nawer Islam Sattik,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139989201,Chowdhury Mashrur Mahdee,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q139996773,Sharmind Neelotpol,http://www.wikidata.org/entity/Q902,Bangladesh,female,
+http://www.wikidata.org/entity/Q140068288,Md. Rafiqul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
+http://www.wikidata.org/entity/Q140087956,SM Rafiqul Islam,http://www.wikidata.org/entity/Q902,Bangladesh,male,
