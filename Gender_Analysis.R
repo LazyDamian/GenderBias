@@ -285,23 +285,3 @@ for (label in c("5 Länder", "Ganzer Kontinent")) {
     )
   print(gender_check)
 }
-
-
-# ============================================================
-# 11. ALTERNATIVE DATENSÄTZE EXPORTIEREN
-# ============================================================
-
-# df_all_2: Africa restricted to 5 most populous countries
-africa_5_df <- df_all %>%
-  filter(region == "Africa",
-         countryLabel %in% africa_5_countries)
-
-df_all_2 <- bind_rows(
-  africa_5_df,
-  df_all %>% filter(region == "Asia"),
-  df_all %>% filter(region == "West")
-)
-
-write_csv(df_all,   "df_all.csv")    # full Africa (whole continent)
-write_csv(df_all_2, "df_all_2.csv")  # Africa restricted to 5 countries
-
