@@ -8,9 +8,10 @@ library(tidyverse)
 # ============================================================
 # 1. DATEN LADEN & ZUSAMMENFÜHREN
 # ============================================================
-
 africa <- read_csv("Afrika.csv") %>%
-  mutate(region = "Africa")
+  mutate(region = "Africa") %>%
+  filter(countryLabel %in% c("Nigeria", "Ethiopia", "Egypt",
+                              "Tanzania", "Democratic Republic of the Congo"))
 
 asia <- bind_rows(
   read_csv("China.csv"),
@@ -253,35 +254,3 @@ lang_per_person_gender %>%
   print()
 
 
-# ============================================================
-# 10. KONSISTENZPRÜFUNG: AFRIKA (5 LÄNDER VS. GANZER KONTINENT)
-# ============================================================
-
-cat("\n=== Konsistenzprüfung Afrika: 5 Länder vs. ganzer Kontinent ===\n")
-
-africa_5_countries <- c("Nigeria", "Ethiopia", "Egypt",
-                        "Tanzania", "Democratic Republic of the Congo")
-
-africa_5  <- df_clean %>% filter(region == "Africa",
-                                  countryLabel %in% africa_5_countries)
-africa_all <- df_clean %>% filter(region == "Africa")
-
-for (label in c("5 Länder", "Ganzer Kontinent")) {
-  sub <- if (label == "5 Länder") africa_5 else africa_all
-  n   <- nrow(sub)
-  cat("\n---", label, "---\n")
-  cat("Forschende:", n, "\n")
-  cat("Mit Wikipedia:", sum(!is.na(sub$wikipediaArticle)),
-      "(", round(sum(!is.na(sub$wikipediaArticle)) / n * 100, 1), "%)\n")
-
-  gender_check <- sub %>%
-    filter(genderLabel %in% c("male", "female")) %>%
-    group_by(genderLabel) %>%
-    summarise(
-      n_total     = n(),
-      n_with_wiki = sum(!is.na(wikipediaArticle)),
-      pct_wiki    = round(n_with_wiki / n_total * 100, 1),
-      .groups     = "drop"
-    )
-  print(gender_check)
-}
