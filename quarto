@@ -1,0 +1,359 @@
+---
+title: "Gender-Aspekte der Data Science"
+subtitle: "Sichtbarkeit von Forschenden auf Wikipedia im globalen Vergleich"
+author: "Damian Rutz"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: show
+    theme: cosmo
+  pdf:
+    toc: true
+execute:
+  warning: false
+  message: false
+---
+
+## Einleitung
+
+Wikipedia gilt als eine der wichtigsten frei zugänglichen Wissensquellen weltweit und prägt maßgeblich, welche Forschenden öffentlich sichtbar sind. Wer einen Wikipedia-Artikel hat, in wie vielen Sprachen dieser Artikel existiert und wie ausführlich er ist, entscheidet mit darüber, wer als "bekannte Wissenschaftlerin" oder "bekannter Wissenschaftler" wahrgenommen wird. Diese Sichtbarkeit ist jedoch nicht zufällig verteilt: Frühere Studien zeigen wiederholt, dass Frauen in der Wissenschaft auf Wikipedia unterrepräsentiert sind, sowohl in absoluten Zahlen als auch in der Ausführlichkeit ihrer Artikel.
+
+Dieses Projekt untersucht die Sichtbarkeit von Forschenden auf Wikipedia im Vergleich dreier Weltregionen: Afrika, Asien und der Westen (Deutschland, Frankreich, Italien, UK, USA). Grundlage sind Daten aus Wikidata, die über SPARQL-Abfragen gewonnen und anschließend mit der Wikipedia-REST-API angereichert wurden. Im Zentrum stehen drei Fragen:
+
+1. Wie stark unterscheidet sich die Wikipedia-Abdeckung von Forschenden zwischen den Regionen?
+2. Gibt es einen Gender Gap in der Sichtbarkeit, gemessen an Sprachversionen und Abdeckung?
+3. Wie strukturell ist dieser Gap, das heißt, zeigt er sich konsistent über Regionen und Teildatensätze hinweg?
+
+Der folgende Code lädt, bereinigt und analysiert die Rohdaten schrittweise. Jeder Abschnitt kombiniert R-Code mit einer kurzen inhaltlichen Einordnung, damit der Analyseweg nachvollziehbar bleibt.
+
+## Daten und Methodik
+
+Die Rohdaten liegen als länderweise CSV-Dateien vor, jeweils mit den Spalten `person`, `personLabel`, `country`, `countryLabel`, `genderLabel` und `wikipediaArticle`. Eine Person kann mehrfach vorkommen, nämlich einmal pro Sprachversion ihres Wikipedia-Artikels. Das ist methodisch wichtig: Für Fragen wie "Wie viele Forschende gibt es pro Region?" muss dedupliziert werden, für Fragen wie "Wie viele Sprachversionen hat eine Person im Schnitt?" braucht man dagegen genau diese Mehrfachzeilen.
+
+Die elf Länder werden zu drei Regionen zusammengefasst: Afrika (ein Datensatz für den gesamten Kontinent), Asien (China, Indien, Indonesien, Bangladesch, Pakistan) und Westen (Deutschland, Frankreich, Italien, UK, USA). Diese Einteilung ist eine bewusste Vereinfachung, um Aussagen auf Regionsebene treffen zu können, ohne die statistische Aussagekraft einzelner Länder überzustrapazieren.
+
+```{r}
+#| label: setup
+library(tidyverse)
+```
+
+```{r}
+#| label: daten-laden
+africa <- read_csv("Afrika.csv") %>%
+  mutate(region = "Africa")
+
+asia <- bind_rows(
+  read_csv("China.csv"),
+  read_csv("Indien.csv"),
+  read_csv("Indonesien.csv"),
+  read_csv("Bangladesch.csv"),
+  read_csv("Pakistan.csv")
+) %>%
+  mutate(region = "Asia")
+
+west <- bind_rows(
+  read_csv("Deutschland.csv"),
+  read_csv("Frankreich.csv"),
+  read_csv("Italien.csv"),
+  read_csv("UK.csv"),
+  read_csv("USA.csv")
+) %>%
+  mutate(region = "West")
+
+df_all <- bind_rows(africa, asia, west)
+
+cat("Gesamtzahl Einträge (vor Deduplizierung):", nrow(df_all), "\n")
+```
+
+## Deduplizierung
+
+Da jede Zeile eigentlich eine Person-Artikel-Kombination ist, entstehen zwei unterschiedliche, aber gleichermaßen notwendige Datensätze. `df_clean` enthält genau eine Zeile pro Person und eignet sich für Zählungen wie "Wie viele Forschende gibt es?" oder "Wie ist die Geschlechterverteilung?". `df_wiki` behält dagegen alle Person-Artikel-Kombinationen (nur für Personen mit mindestens einem Artikel) und ist die Grundlage für alles, was mit Sprachversionen zu tun hat.
+
+```{r}
+#| label: deduplizierung
+df_wiki <- df_all %>%
+  filter(!is.na(wikipediaArticle)) %>%
+  distinct(person, wikipediaArticle, .keep_all = TRUE)
+
+df_clean <- df_all %>%
+  distinct(person, .keep_all = TRUE)
+
+dupes <- nrow(df_all) - nrow(df_clean)
+
+cat("Doppelte Einträge entfernt:", dupes, "\n")
+cat("Eindeutige Forschende:", nrow(df_clean), "\n")
+```
+
+Die Differenz zwischen `df_all` und `df_clean` entspricht damit nicht "Fehlern" im Datensatz, sondern schlicht der Anzahl zusätzlicher Sprachartikel pro Person. Das ist ein wichtiger Unterschied zu klassischer Duplikatsbereinigung, bei der doppelte Zeilen üblicherweise Datenfehler anzeigen.
+
+## Forschende pro Region
+
+Als erster Überblick zeigt sich, wie viele eindeutige Forschende pro Region in den Daten enthalten sind. Das ist zugleich die Grundgesamtheit für alle folgenden Prozentangaben.
+
+```{r}
+#| label: forschende-pro-region
+df_clean %>%
+  count(region, name = "n_researchers") %>%
+  print()
+```
+
+## Wikipedia-Abdeckung pro Region
+
+Die Abdeckung gibt an, wie viel Prozent der erfassten Forschenden überhaupt einen Wikipedia-Artikel besitzen. Unterschiede hier deuten auf strukturelle Sichtbarkeitsunterschiede zwischen den Regionen hin, etwa durch unterschiedliche Mediensysteme, Sprachräume oder die schiere Größe der jeweiligen Wikipedia-Communities.
+
+```{r}
+#| label: wiki-abdeckung
+wiki_coverage <- df_clean %>%
+  group_by(region) %>%
+  summarise(
+    n_total       = n(),
+    n_with_wiki   = sum(!is.na(wikipediaArticle)),
+    n_without     = sum(is.na(wikipediaArticle)),
+    pct_with_wiki = round(n_with_wiki / n_total * 100, 1)
+  ) %>%
+  arrange(desc(pct_with_wiki))
+
+print(wiki_coverage)
+```
+
+Erwartungsgemäß dürfte der Westen hier tendenziell höhere Abdeckungsraten aufweisen, was weniger mit der wissenschaftlichen Relevanz der Forschenden zu tun hat als mit der Größe und Aktivität der jeweiligen Wikipedia-Editor:innen-Community.
+
+## Geschlechterverteilung pro Region
+
+Bevor der eigentliche Gender Gap in der Sichtbarkeit untersucht werden kann, muss zunächst die Ausgangsverteilung der Geschlechter in den Daten selbst betrachtet werden. Ist eine Region ohnehin schon stark männlich dominiert, muss das bei der Interpretation späterer Sichtbarkeitsunterschiede mitgedacht werden.
+
+```{r}
+#| label: geschlechterverteilung
+gender_dist <- df_clean %>%
+  group_by(region, genderLabel) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  group_by(region) %>%
+  mutate(pct = round(n / sum(n) * 100, 1)) %>%
+  arrange(region, desc(n))
+
+print(gender_dist)
+```
+
+Anschließend wird die Wikipedia-Abdeckung getrennt nach Geschlecht innerhalb jeder Region betrachtet. Das ist der eigentliche Kern der Fragestellung: Werden Frauen in der Wissenschaft, unabhängig von ihrer ohnehin geringeren Zahl, zusätzlich noch seltener mit einem Wikipedia-Artikel bedacht als Männer?
+
+```{r}
+#| label: geschlecht-wiki-abdeckung
+gender_wiki <- df_clean %>%
+  filter(genderLabel %in% c("male", "female")) %>%
+  group_by(region, genderLabel) %>%
+  summarise(
+    n_total     = n(),
+    n_with_wiki = sum(!is.na(wikipediaArticle)),
+    pct_wiki    = round(n_with_wiki / n_total * 100, 1),
+    .groups     = "drop"
+  ) %>%
+  arrange(region, genderLabel)
+
+print(gender_wiki)
+```
+
+## Sprachabdeckung
+
+Ein Wikipedia-Artikel allein sagt noch wenig über die tatsächliche Reichweite aus. Aussagekräftiger ist, in wie vielen Sprachversionen eine Person vertreten ist. Dazu wird zunächst der Sprachcode aus der URL des jeweiligen Artikels extrahiert.
+
+```{r}
+#| label: sprachcode-extrahieren
+langs <- df_wiki %>%
+  mutate(lang = str_extract(wikipediaArticle, "(?<=https://)([a-z-]+)(?=\\.wikipedia)")) %>%
+  filter(!is.na(lang))
+
+cat("Anzahl unterschiedlicher Sprachen pro Region:\n")
+langs %>%
+  group_by(region) %>%
+  summarise(n_languages = n_distinct(lang)) %>%
+  print()
+```
+
+Interessanter als die reine Anzahl verfügbarer Sprachen ist der Durchschnitt pro Person: Wie viele Sprachversionen hat eine typische Forscherin oder ein typischer Forscher im Schnitt?
+
+```{r}
+#| label: sprachversionen-pro-person
+lang_per_person <- langs %>%
+  group_by(region, person) %>%
+  summarise(n_langs = n_distinct(lang), .groups = "drop")
+
+lang_per_person %>%
+  group_by(region) %>%
+  summarise(
+    mean_langs   = round(mean(n_langs), 2),
+    median_langs = median(n_langs),
+    max_langs    = max(n_langs)
+  ) %>%
+  arrange(desc(mean_langs)) %>%
+  print()
+```
+
+Ergänzend lohnt ein Blick auf die tatsächlich am häufigsten vorkommenden Sprachen pro Region, um die Ergebnisse besser einordnen zu können. So wird beispielsweise sichtbar, in welchem Ausmaß Englisch als "Standardsprache" wissenschaftlicher Sichtbarkeit fungiert.
+
+```{r}
+#| label: top-sprachen
+langs %>%
+  group_by(region, lang) %>%
+  summarise(n_researchers = n_distinct(person), .groups = "drop") %>%
+  group_by(region) %>%
+  slice_max(n_researchers, n = 10) %>%
+  print(n = Inf)
+```
+
+## Top-Länder pro Region
+
+Um zu prüfen, ob einzelne Länder eine Region dominieren, folgt eine Aufschlüsselung der zehn Länder mit den meisten erfassten Forschenden pro Region. Das ist besonders für Afrika relevant, da hier ein einzelner Kontinent als eine Einheit behandelt wird, obwohl die Länder darin sehr unterschiedlich groß und unterschiedlich gut in Wikidata erfasst sein können.
+
+```{r}
+#| label: top-laender
+df_clean %>%
+  group_by(region, countryLabel) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  group_by(region) %>%
+  slice_max(n, n = 10) %>%
+  print(n = Inf)
+```
+
+## Strukturelle Missingness: Geschlecht
+
+Nicht bei jeder Person ist in Wikidata ein Geschlecht hinterlegt. Fehlende Werte sind hier nicht zufällig, sondern können selbst ein Sichtbarkeitsindikator sein: Wenn eine Person kaum Daten in Wikidata hat, fehlt oft auch das Geschlecht. Deshalb wird die Rate fehlender Geschlechtsangaben separat pro Region ausgewiesen.
+
+```{r}
+#| label: fehlende-geschlechtsangaben
+df_clean %>%
+  group_by(region) %>%
+  summarise(
+    n_total          = n(),
+    n_gender_missing = sum(is.na(genderLabel)),
+    pct_missing      = round(n_gender_missing / n_total * 100, 1)
+  ) %>%
+  arrange(desc(pct_missing)) %>%
+  print()
+```
+
+## Sprachabdeckung nach Geschlecht
+
+Der eigentliche Kernvergleich der Analyse verbindet nun beide vorherigen Stränge: Sprachversionen und Geschlecht. Konkret wird geprüft, ob Forscherinnen im Schnitt weniger Sprachversionen ihres Artikels haben als Forscher, sowohl regional als auch global.
+
+```{r}
+#| label: sprachen-nach-geschlecht
+langs_gender <- df_wiki %>%
+  mutate(lang = str_extract(wikipediaArticle, "(?<=https://)([a-z-]+)(?=\\.wikipedia)")) %>%
+  filter(!is.na(lang)) %>%
+  filter(genderLabel %in% c("male", "female"))
+
+lang_per_person_gender <- langs_gender %>%
+  group_by(region, person, genderLabel) %>%
+  summarise(n_langs = n_distinct(lang), .groups = "drop")
+
+lang_per_person_gender %>%
+  group_by(region, genderLabel) %>%
+  summarise(
+    mean_langs    = round(mean(n_langs), 2),
+    median_langs  = median(n_langs),
+    n_researchers = n(),
+    .groups       = "drop"
+  ) %>%
+  arrange(region, genderLabel) %>%
+  print()
+```
+
+Zusätzlich zur regionalen Betrachtung liefert die globale Aggregation über alle Regionen hinweg eine übergeordnete Kennzahl für den Gesamtvergleich zwischen den Geschlechtern.
+
+```{r}
+#| label: sprachen-nach-geschlecht-global
+cat("Global (alle Regionen zusammen):\n")
+lang_per_person_gender %>%
+  group_by(genderLabel) %>%
+  summarise(
+    mean_langs    = round(mean(n_langs), 2),
+    median_langs  = median(n_langs),
+    n_researchers = n(),
+    .groups       = "drop"
+  ) %>%
+  print()
+```
+
+Um die Größe des Unterschieds direkt greifbar zu machen, wird abschließend die Differenz zwischen Männern und Frauen je Region als eigene Kennzahl berechnet, der sogenannte Gender Gap in Sprachversionen.
+
+```{r}
+#| label: gender-gap
+cat("Gender Gap pro Region (Männer minus Frauen):\n")
+lang_per_person_gender %>%
+  group_by(region, genderLabel) %>%
+  summarise(mean_langs = round(mean(n_langs), 2), .groups = "drop") %>%
+  pivot_wider(names_from = genderLabel, values_from = mean_langs) %>%
+  mutate(gap_M_minus_F = round(male - female, 2)) %>%
+  print()
+```
+
+Ein durchgängig positiver Gap über alle Regionen hinweg würde darauf hindeuten, dass der Unterschied nicht auf einzelne kulturelle oder mediale Besonderheiten einer Region zurückzuführen ist, sondern ein strukturelles Muster darstellt.
+
+## Konsistenzprüfung: Afrika im Detail
+
+Da Afrika im Datensatz als ein einziger Kontinent behandelt wird, während Asien und der Westen aus mehreren Einzelländern bestehen, ist ein Robustheitscheck sinnvoll. Dazu wird verglichen, ob sich die Ergebnisse ändern, wenn Afrika auf die fünf bevölkerungsreichsten Länder eingeschränkt wird, statt den gesamten Kontinent zu betrachten.
+
+```{r}
+#| label: konsistenzpruefung-afrika
+africa_5_countries <- c("Nigeria", "Ethiopia", "Egypt",
+                        "Tanzania", "Democratic Republic of the Congo")
+
+africa_5  <- df_clean %>% filter(region == "Africa",
+                                  countryLabel %in% africa_5_countries)
+africa_all <- df_clean %>% filter(region == "Africa")
+
+for (label in c("5 Länder", "Ganzer Kontinent")) {
+  sub <- if (label == "5 Länder") africa_5 else africa_all
+  n   <- nrow(sub)
+  cat("\n---", label, "---\n")
+  cat("Forschende:", n, "\n")
+  cat("Mit Wikipedia:", sum(!is.na(sub$wikipediaArticle)),
+      "(", round(sum(!is.na(sub$wikipediaArticle)) / n * 100, 1), "%)\n")
+
+  gender_check <- sub %>%
+    filter(genderLabel %in% c("male", "female")) %>%
+    group_by(genderLabel) %>%
+    summarise(
+      n_total     = n(),
+      n_with_wiki = sum(!is.na(wikipediaArticle)),
+      pct_wiki    = round(n_with_wiki / n_total * 100, 1),
+      .groups     = "drop"
+    )
+  print(gender_check)
+}
+```
+
+Bleibt der Gender Gap in beiden Varianten ähnlich stark ausgeprägt, ist das ein Hinweis darauf, dass das Ergebnis nicht durch die Zusammensetzung der Länderauswahl verzerrt wird, sondern ein robustes Muster innerhalb der afrikanischen Daten widerspiegelt.
+
+## Export der bereinigten Datensätze
+
+Für die Weiterverarbeitung, etwa in Visualisierungen oder in einem separaten Bericht, werden abschließend zwei Varianten des Gesamtdatensatzes exportiert: einmal mit Afrika als vollständigem Kontinent und einmal mit Afrika beschränkt auf die fünf größten Länder.
+
+```{r}
+#| label: export
+#| eval: false
+africa_5_df <- df_all %>%
+  filter(region == "Africa",
+         countryLabel %in% africa_5_countries)
+
+df_all_2 <- bind_rows(
+  africa_5_df,
+  df_all %>% filter(region == "Asia"),
+  df_all %>% filter(region == "West")
+)
+
+write_csv(df_all,   "df_all.csv")
+write_csv(df_all_2, "df_all_2.csv")
+```
+
+## Diskussion und Fazit
+
+Die Analyse zeigt ein mehrschichtiges Bild. Zunächst unterscheidet sich die reine Wikipedia-Abdeckung zwischen den Regionen, was zu einem erheblichen Teil die Größe und Aktivität lokaler Wikipedia-Communities widerspiegelt und nicht direkt die wissenschaftliche Produktivität der jeweiligen Forschenden. Deutlich aufschlussreicher ist der zweite Schritt: der Vergleich der Sprachabdeckung zwischen Männern und Frauen. Ein positiver Gender Gap, also im Schnitt mehr Sprachversionen bei Männern, der sich über mehrere Regionen hinweg zeigt, spricht dafür, dass die geringere Sichtbarkeit von Forscherinnen nicht allein durch regionale oder kulturelle Einzelfälle erklärbar ist, sondern ein strukturelles Muster in der Wissensproduktion und -kuration von Wikipedia darstellt.
+
+Wichtig ist dabei die Unterscheidung zwischen zwei Ebenen der Ungleichheit. Die erste Ebene betrifft die Repräsentation an sich, also wie viele Frauen überhaupt in den Daten und mit einem Artikel vertreten sind. Die zweite, subtilere Ebene betrifft die Tiefe der Sichtbarkeit jener Frauen, die es bereits in die Wikipedia geschafft haben. Der hier berechnete Sprachversionen-Gap adressiert genau diese zweite Ebene: Selbst wenn eine Forscherin einen Artikel hat, ist dieser im Schnitt in weniger Sprachen verfügbar als der eines vergleichbaren männlichen Kollegen.
+
+Der Robustheitscheck für Afrika ist methodisch bedeutsam, weil er zeigt, ob Aussagen über eine ganze Weltregion Bestand haben, wenn man die Datenbasis verändert. Bestätigt sich der Gap sowohl bei fünf ausgewählten Ländern als auch beim gesamten Kontinent, stärkt das die Aussagekraft der übrigen Ergebnisse erheblich.
+
+Einschränkend gilt: Die Daten stammen aus Wikidata und spiegeln damit vor allem, welche Forschenden dort überhaupt erfasst sind, was selbst schon eine Vorauswahl darstellt. Zudem bleiben fehlende Geschlechtsangaben eine Fehlerquelle, da unklar ist, ob sie zufällig verteilt sind oder selbst mit geringerer Sichtbarkeit korrelieren. Für weiterführende Arbeiten wäre es sinnvoll, zusätzlich die Artikellänge als Sichtbarkeitsmaß heranzuziehen sowie zeitliche Trends zu betrachten, um zu prüfen, ob sich der Gender Gap in jüngeren Kohorten von Forschenden verringert.
