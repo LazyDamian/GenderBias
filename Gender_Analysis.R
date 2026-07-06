@@ -42,31 +42,17 @@ cat("Gesamtzahl Einträge (vor Dedup):", nrow(df_all), "\n")
 # 2. DEDUPLIZIERUNG
 # ============================================================
 
-# Using Africa restricted to 5 most populous countries
-africa_5_countries <- c("Nigeria", "Ethiopia", "Egypt",
-                        "Tanzania", "Democratic Republic of the Congo")
-
-africa_5_df <- df_all %>%
-  filter(region == "Africa",
-         countryLabel %in% africa_5_countries)
-
-df_all_2 <- bind_rows(
-  africa_5_df,
-  df_all %>% filter(region == "Asia"),
-  df_all %>% filter(region == "West")
-)
-
 # df_clean  → one row per person (for counting researchers)
 # df_wiki   → one row per person per Wikipedia article (for language analysis)
 
-df_wiki <- df_all_2 %>%
+df_wiki <- df_all %>%
   filter(!is.na(wikipediaArticle)) %>%
   distinct(person, wikipediaArticle, .keep_all = TRUE)
 
-df_clean <- df_all_2 %>%
+df_clean <- df_all %>%
   distinct(person, .keep_all = TRUE)
 
-dupes <- nrow(df_all_2) - nrow(df_clean)
+dupes <- nrow(df_all) - nrow(df_clean)
 
 cat("Doppelte Einträge entfernt:", dupes, "\n")
 cat("Eindeutige Forschende:", nrow(df_clean), "\n\n")
