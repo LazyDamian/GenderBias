@@ -26,25 +26,16 @@ Jede CSV-Datei enthält pro Zeile eine Person-Artikel-Kombination mit den Spalte
 
 | Datei | Beschreibung |
 |---|---|
-| `analysis.R` | R-Skript mit der vollständigen Datenaufbereitung und Analyse |
-| `gender_bias.qmd` | Quarto-Dokument mit Code, Ergebnissen und ausführlicher inhaltlicher Einordnung; rendert zu HTML/PDF |
+| `gender_bias.qmd` | Quarto-Dokument mit vollständiger Datenaufbereitung, Analyse und ausführlicher inhaltlicher Einordnung. |
 | `*.csv` | Rohdaten je Land, siehe Tabelle oben |
 
 ## Methodik im Überblick
 
-1. **Datenerhebung** – SPARQL-Abfragen am Wikidata-Endpunkt, länderweise getrennt (der öffentliche Endpunkt reagiert bei großen, globalen Abfragen häufig mit Timeouts).
-2. **Deduplizierung** – aus den Rohdaten entstehen zwei Datensätze: einer mit einer Zeile pro Person (für Zählungen wie Abdeckung oder Geschlechterverteilung) und einer mit einer Zeile pro Person und Sprachversion (für die Sprachanalyse).
-3. **Berechnete Kennzahlen** – Wikipedia-Abdeckungsrate, Sprachversionen pro Person, Geschlechterverteilung, jeweils regional und nach Geschlecht aufgeschlüsselt.
-4. **Vergleichsrahmen** – jeweils die fünf bevölkerungsreichsten Länder pro Region, um die Regionen untereinander fair vergleichbar zu halten.
+Die Daten werden länderweise per SPARQL abgefragt, dedupliziert (eine Zeile pro Person für Zählungen, eine Zeile pro Person und Sprachversion für die Sprachanalyse) und anschließend zu Kennzahlen wie Wikipedia-Abdeckungsrate, Sprachversionen pro Person und Geschlechterverteilung verdichtet – jeweils regional und nach Geschlecht aufgeschlüsselt. Details und Begründungen der einzelnen Schritte stehen in `gender_bias.qmd`.
 
-## Zentrale Ergebnisse
+## Ergebnisse
 
-- **Abdeckung:** 37,2 % der westlichen Forschenden haben einen Wikipedia-Artikel, gegenüber 22 % (Afrika) und 24 % (Asien) – die Lücke liegt vor allem zwischen Westen und Rest, nicht zwischen Afrika und Asien.
-- **Geschlechtergefälle bei der Abdeckung:** im Westen fast ausgeglichen (39,0 % Männer vs. 37,3 % Frauen), in Asien groß (42 % vs. 18 %), in Afrika sogar leicht zugunsten der Frauen (22 % vs. 24 %).
-- **Sprachliche Reichweite:** im Schnitt 4,2 Sprachversionen im Westen, 3,8 in Afrika, nur 2,3 in Asien.
-- **Sprachliche Reichweite nach Geschlecht:** im Westen liegen Männer leicht vorn (4,6 vs. 3,4), in Afrika und Asien dagegen deutlich die Frauen (Afrika: 5,4 vs. 3,0; Asien: 3,6 vs. 2,2) – ein Hinweis darauf, dass in diesen Regionen nur besonders sichtbare Forscherinnen überhaupt einen Artikel bekommen.
-
-Die ausführliche Einordnung dieser Befunde, inklusive Diskussion und offener Fragen, steht in `gender_bias.qmd`.
+Die vollständigen Ergebnisse, Diagramme und ihre inhaltliche Einordnung stehen in `gender_bias.qmd`.
 
 ## Setup
 
@@ -52,19 +43,7 @@ Die ausführliche Einordnung dieser Befunde, inklusive Diskussion und offener Fr
 install.packages("tidyverse")
 ```
 
-Die CSV-Dateien müssen im selben Verzeichnis wie `analysis.R` bzw. `gender_bias.qmd` liegen.
-
-## Verwendung
-
-**R-Skript ausführen:**
-```r
-source("analysis.R")
-```
-
-**Quarto-Report rendern** (Code, Ergebnisse und Fließtext als HTML oder PDF):
-```bash
-quarto render gender_bias.qmd
-```
+Die CSV-Dateien müssen im selben Verzeichnis wie `gender_bias.qmd` liegen.
 
 ## Einschränkungen
 
