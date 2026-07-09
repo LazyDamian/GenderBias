@@ -1,7 +1,7 @@
 ---
 title: "Gender-Aspekte der Data Science"
 subtitle: "Sichtbarkeit von Forschenden auf Wikipedia im globalen Vergleich"
-author: "Damian Rutz"
+author: "Damian Rutz, Temirlan Anarkulov, Mary-Joyce Tonye Siade"
 date: today
 format:
   html:
