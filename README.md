@@ -6,7 +6,7 @@ Dieses Projekt untersucht, wie sichtbar Forschende aus Afrika, Asien und dem Wes
 
 ## Forschungsfrage
 
-Sind Forschende aus Afrika und Asien auf Wikipedia weniger sichtbar als ihre westlichen Gegenstücke, und verstärkt das Geschlecht diese Lücke zusätzlich?
+Sind Forschende aus Afrika und Asien auf Wikipedia weniger sichtbar als ihre westlichen Kolleginnen und Kollegen, und verstärkt das Geschlecht diese Lücke zusätzlich?
 
 Die Analyse orientiert sich an der Intersektionalitätstheorie (Crenshaw): Geschlecht und Herkunftsregion werden nicht getrennt, sondern gemeinsam betrachtet, weil sich Benachteiligungen an ihrem Schnittpunkt anders verhalten können als jede Kategorie für sich.
 
@@ -31,7 +31,7 @@ Jede CSV-Datei enthält pro Zeile eine Person-Artikel-Kombination mit den Spalte
 
 ## Methodik im Überblick
 
-Die Daten werden länderweise per SPARQL abgefragt, dedupliziert (eine Zeile pro Person für Zählungen, eine Zeile pro Person und Sprachversion für die Sprachanalyse) und anschließend zu Kennzahlen wie Wikipedia-Abdeckungsrate, Sprachversionen pro Person und Geschlechterverteilung verdichtet – jeweils regional und nach Geschlecht aufgeschlüsselt. Details und Begründungen der einzelnen Schritte stehen in `gender_bias.qmd`.
+Die Daten werden länderweise per SPARQL abgefragt, dedupliziert (eine Zeile pro Person für Zählungen, eine Zeile pro Person und Sprachversion für die Sprachanalyse) und anschließend zu Kennzahlen wie Wikipedia-Abdeckungsrate, Sprachversionen pro Person und Geschlechterverteilung verdichtet - jeweils regional und nach Geschlecht aufgeschlüsselt. Details und Begründungen der einzelnen Schritte stehen in `gender_bias.qmd`.
 
 ## Ergebnisse
 
@@ -50,8 +50,5 @@ Die CSV-Dateien müssen im selben Verzeichnis wie `gender_bias.qmd` liegen.
 - Die Berufsdefinition (Q901/Q1650915) schließt verwandte Kategorien wie reine Hochschullehrende aus.
 - Für datenreiche Länder waren LIMIT-Beschränkungen in den SPARQL-Abfragen nötig; die Daten bilden daher nicht zwangsläufig die vollständige Population ab.
 - Fehlende Geschlechtsangaben (in Asien besonders häufig, 28,8 %) werden als eigener Befund behandelt, nicht als zufälliges Rauschen.
-- Die Daten spiegeln nur, wer in Wikidata überhaupt erfasst ist – das ist bereits eine Vorauswahl.
+- Die Daten spiegeln nur, wer in Wikidata überhaupt erfasst ist - das ist bereits eine Vorauswahl.
 
-## Autor
-
-Damian Rutz · TH Nürnberg, Social Data Science & Communication
